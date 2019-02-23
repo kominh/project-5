@@ -1,0 +1,73 @@
+/*---base style----*/
+
+*{
+box-sizing: border-box;		
+
+}
+
+body {
+  
+  font-family: 'Muli', sans-serif;
+  color: gray;
+
+
+}
+ p {
+	 	font-size: 12px;
+	 	line-height: 19px;
+
+	 }
+
+
+
+.container {
+	padding: 40px;
+
+	@media (min-width: 769px) {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+}
+
+
+
+.grid__row {
+margin-top: 30px;
+
+
+}
+
+#type {
+	font-weight: normal;
+
+}
+#images {
+	font-weight: normal;
+	margin-top: 50px;
+
+}
+
+
+#buttons {
+	font-weight: normal;
+}
+
+#grid {
+	font-weight: normal;
+}
+
+.theme__colors {
+	align-items: center;
+}
+
+.img--logo {
+	width: 175px;
+
+	@media (min-width: $break-m) {
+		max-width: 85%;
+	}
+
+
+	
+}
